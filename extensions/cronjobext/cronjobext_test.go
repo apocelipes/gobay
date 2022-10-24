@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/RichardKnop/machinery/v1/tasks"
-	"github.com/shanbay/gobay"
+	"github.com/apocelipes/gobay"
 )
 
 var (

@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/shanbay/gobay"
-	"github.com/shanbay/gobay/extensions/redisext"
+	"github.com/apocelipes/gobay"
+	"github.com/apocelipes/gobay/extensions/redisext"
 )
 
 const (

@@ -6,11 +6,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/facebook/ent/dialect"
+	"github.com/apocelipes/ent/dialect"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/shanbay/gobay"
-	"github.com/shanbay/gobay/extensions/entext"
-	"github.com/shanbay/gobay/testdata/ent"
+	"github.com/apocelipes/gobay"
+	"github.com/apocelipes/gobay/extensions/entext"
+	"github.com/apocelipes/gobay/testdata/ent"
 )
 
 var (

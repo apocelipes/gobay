@@ -22,7 +22,7 @@ import (
 	"github.com/RichardKnop/machinery/v1/tasks"
 	"github.com/google/uuid"
 	"github.com/mitchellh/mapstructure"
-	"github.com/shanbay/gobay"
+	"github.com/apocelipes/gobay"
 )
 
 const (

@@ -16,8 +16,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/shanbay/gobay"
-	"github.com/shanbay/gobay/extensions/sentryext"
+	"github.com/apocelipes/gobay"
+	"github.com/apocelipes/gobay/extensions/sentryext"
 )
 
 var (

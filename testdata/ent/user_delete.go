@@ -5,9 +5,9 @@ package ent
 import (
 	"context"
 
-	"github.com/facebook/ent/dialect/sql"
-	"github.com/shanbay/gobay/testdata/ent/predicate"
-	"github.com/shanbay/gobay/testdata/ent/user"
+	"github.com/apocelipes/ent/dialect/sql"
+	"github.com/apocelipes/gobay/testdata/ent/predicate"
+	"github.com/apocelipes/gobay/testdata/ent/user"
 )
 
 // UserDelete is the builder for deleting a User entity.

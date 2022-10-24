@@ -13,8 +13,8 @@ import (
 	"github.com/RichardKnop/machinery/v1/tasks"
 	"github.com/go-co-op/gocron"
 	"github.com/mitchellh/mapstructure"
-	"github.com/shanbay/gobay"
-	"github.com/shanbay/gobay/extensions/asynctaskext"
+	"github.com/apocelipes/gobay"
+	"github.com/apocelipes/gobay/extensions/asynctaskext"
 )
 
 // Config configuration of cronjobext

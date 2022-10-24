@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/getsentry/sentry-go"
-	"github.com/shanbay/gobay"
+	"github.com/apocelipes/gobay"
 	"github.com/spf13/viper"
 )
 

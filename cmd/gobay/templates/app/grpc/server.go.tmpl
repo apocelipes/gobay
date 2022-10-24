@@ -9,13 +9,13 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/shanbay/gobay"
+	"github.com/apocelipes/gobay"
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	grpc_recovery "github.com/grpc-ecosystem/go-grpc-middleware/recovery"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 {{- if not $.SkipSentry }}
-	sentrygrpcmw "github.com/shanbay/gobay/extensions/sentryext/grpc"
+	sentrygrpcmw "github.com/apocelipes/gobay/extensions/sentryext/grpc"
 {{- end }}
 {{- if not $.SkipElasticApm }}
 	"go.elastic.co/apm/module/apmgrpc"

@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/shanbay/gobay/testdata/ent/migrate"
+	"github.com/apocelipes/gobay/testdata/ent/migrate"
 
-	"github.com/shanbay/gobay/testdata/ent/user"
+	"github.com/apocelipes/gobay/testdata/ent/user"
 
-	"github.com/facebook/ent/dialect"
-	"github.com/facebook/ent/dialect/sql"
+	"github.com/apocelipes/ent/dialect"
+	"github.com/apocelipes/ent/dialect/sql"
 )
 
 // Client is the client that holds all ent builders.

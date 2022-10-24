@@ -12,9 +12,9 @@ import (
 	"net/http"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/shanbay/gobay"
-	"github.com/shanbay/gobay/extensions/cachext"
-	_ "github.com/shanbay/gobay/extensions/cachext/backend/memory"
+	"github.com/apocelipes/gobay"
+	"github.com/apocelipes/gobay/extensions/cachext"
+	_ "github.com/apocelipes/gobay/extensions/cachext/backend/memory"
 	"github.com/stretchr/testify/assert"
 )
 

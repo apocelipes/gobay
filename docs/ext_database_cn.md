@@ -18,7 +18,7 @@ package app
 
 import (
   schema "git.17bdc.com/backend/helloworld/gen/entschema"
-  "github.com/facebook/ent/dialect"
+  "github.com/apocelipes/ent/dialect"
   _ "github.com/go-sql-driver/mysql"
   "github.com/shanbay/gobay"
   "github.com/shanbay/gobay/extensions/entext"
@@ -66,10 +66,10 @@ package schema
 import (
   "time"
 
-  "github.com/facebook/ent"
-  "github.com/facebook/ent/dialect"
-  "github.com/facebook/ent/schema/field"
-  "github.com/facebook/ent/schema/index"
+  "github.com/apocelipes/ent"
+  "github.com/apocelipes/ent/dialect"
+  "github.com/apocelipes/ent/schema/field"
+  "github.com/apocelipes/ent/schema/index"
 )
 
 // Sample holds the schema definition for the Sample entity.

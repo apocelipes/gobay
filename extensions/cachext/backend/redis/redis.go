@@ -8,7 +8,7 @@ import (
 	"github.com/spf13/viper"
 	"go.elastic.co/apm/module/apmgoredis"
 
-	"github.com/shanbay/gobay/extensions/cachext"
+	"github.com/apocelipes/gobay/extensions/cachext"
 )
 
 func init() {

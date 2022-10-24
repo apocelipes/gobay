@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/shanbay/gobay"
+	"github.com/apocelipes/gobay"
 	"github.com/stretchr/objx"
 )
 

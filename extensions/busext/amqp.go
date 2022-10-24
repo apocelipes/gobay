@@ -13,7 +13,7 @@ import (
 	"github.com/spf13/viper"
 	"github.com/streadway/amqp"
 
-	"github.com/shanbay/gobay"
+	"github.com/apocelipes/gobay"
 )
 
 var (

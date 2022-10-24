@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/go-openapi/runtime/middleware"
-	"github.com/shanbay/gobay/extensions/entext"
+	"github.com/apocelipes/gobay/extensions/entext"
 )
 
 func respondHTTPError(w http.ResponseWriter, statusCode int, defaultMessage string, entErr error) {

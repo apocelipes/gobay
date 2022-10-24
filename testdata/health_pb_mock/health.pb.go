@@ -6,7 +6,7 @@ package mock_protos_go
 
 import (
 	context "context"
-	protos_go "github.com/shanbay/gobay/testdata/health_pb"
+	protos_go "github.com/apocelipes/gobay/testdata/health_pb"
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"

@@ -6,7 +6,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/facebook/ent/dialect/sql"
+	"github.com/apocelipes/ent/dialect/sql"
 )
 
 // dsn for the database. In order to run the tests locally, run the following command:

@@ -4,7 +4,7 @@ import (
 	sentryhttp "github.com/getsentry/sentry-go/http"
 	"github.com/go-openapi/runtime/middleware"
 
-	"github.com/shanbay/gobay/extensions/sentryext"
+	"github.com/apocelipes/gobay/extensions/sentryext"
 )
 
 func GetMiddleWare(d *sentryext.SentryExt) (middleware.Builder, error) {

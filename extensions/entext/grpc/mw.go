@@ -2,8 +2,8 @@ package ent_mw
 
 import (
 	"context"
-	"github.com/shanbay/gobay/extensions/entext"
-	gobay_grpc "github.com/shanbay/gobay/grpc"
+	"github.com/apocelipes/gobay/extensions/entext"
+	gobay_grpc "github.com/apocelipes/gobay/grpc"
 	"google.golang.org/grpc"
 )
 

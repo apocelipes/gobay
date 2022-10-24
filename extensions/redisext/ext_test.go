@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/shanbay/gobay"
-	"github.com/shanbay/gobay/extensions/redisext"
+	"github.com/apocelipes/gobay"
+	"github.com/apocelipes/gobay/extensions/redisext"
 )
 
 func ExampleRedisExt_CheckHealth() {

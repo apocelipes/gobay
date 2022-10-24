@@ -3,7 +3,7 @@
 ## 生成项目文件夹
 
 ```bash
-# go get github.com/shanbay/gobay/cmd/gobay
+# go get github.com/apocelipes/gobay/cmd/gobay
 gobay new github.com/shanbay/my_proj
 ```
 
@@ -12,7 +12,7 @@ gobay new github.com/shanbay/my_proj
 - openapi 工具: [oapi-codegen](https://github.com/shanbay/oapi-codegen/releases)
 - grpc/protobuf 工具: [grpc-go](https://github.com/grpc/grpc-go) [protobuf](https://github.com/golang/protobuf)
 - lint 工具: [golangci-lint](https://github.com/golangci/golangci-lint#binary)
-- orm 代码生成(ent): [ent](https://github.com/shanbay/ent) 请安装这个版本的 entc `go get github.com/facebook/ent/cmd/entc@v0.4.0`
+- orm 代码生成(ent): [ent](https://github.com/shanbay/ent) 请安装这个版本的 entc `go get github.com/apocelipes/ent/cmd/entc@v0.4.0`
 - gocovmerge: [gocovmerge](https://github.com/wadey/gocovmerge)
 - pre-commit: [pre-commit](https://pre-commit.com/#installation)
 - gotests: [gotests](https://github.com/cweill/gotests)

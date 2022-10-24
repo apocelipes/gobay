@@ -11,7 +11,7 @@ import (
 	"github.com/RichardKnop/machinery/v1/tasks"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/shanbay/gobay"
+	"github.com/apocelipes/gobay"
 )
 
 var (

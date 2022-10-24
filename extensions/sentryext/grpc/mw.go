@@ -10,7 +10,7 @@ import (
 	"github.com/getsentry/sentry-go"
 	grpc_recovery "github.com/grpc-ecosystem/go-grpc-middleware/recovery"
 	"github.com/pkg/errors"
-	"github.com/shanbay/gobay/extensions/sentryext"
+	"github.com/apocelipes/gobay/extensions/sentryext"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

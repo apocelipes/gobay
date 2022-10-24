@@ -20,9 +20,9 @@ import (
 	"github.com/labstack/echo/v4/middleware"
 	echolog "github.com/labstack/gommon/log"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/shanbay/gobay"
-	"github.com/shanbay/gobay/echo/swagger"
-	"github.com/shanbay/gobay/extensions/sentryext/custom_logger"
+	"github.com/apocelipes/gobay"
+	"github.com/apocelipes/gobay/echo/swagger"
+	"github.com/apocelipes/gobay/extensions/sentryext/custom_logger"
 {{- if not $.SkipElasticApm }}
 	"go.elastic.co/apm/module/apmechov4"
 {{- end }}

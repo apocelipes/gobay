@@ -3,24 +3,24 @@ package app
 import (
 	// "context"
 	// schema "{{ $.Url }}/gen/entschema"
-	// "github.com/facebook/ent/dialect"
+	// "github.com/apocelipes/ent/dialect"
 	// "github.com/go-redis/redis"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/shanbay/gobay"
+	"github.com/apocelipes/gobay"
 {{- if not $.SkipAsyncTask }}
-	"github.com/shanbay/gobay/extensions/asynctaskext"
+	"github.com/apocelipes/gobay/extensions/asynctaskext"
 {{- end }}
-	"github.com/shanbay/gobay/extensions/cachext"
-	_ "github.com/shanbay/gobay/extensions/cachext/backend/redis"
-	// "github.com/shanbay/gobay/extensions/entext"
+	"github.com/apocelipes/gobay/extensions/cachext"
+	_ "github.com/apocelipes/gobay/extensions/cachext/backend/redis"
+	// "github.com/apocelipes/gobay/extensions/entext"
 {{- if not $.SkipElasticApm }}
-	"github.com/shanbay/gobay/extensions/esapmext"
+	"github.com/apocelipes/gobay/extensions/esapmext"
 {{- end }}
-	"github.com/shanbay/gobay/extensions/redisext"
+	"github.com/apocelipes/gobay/extensions/redisext"
 {{- if not $.SkipSentry }}
-	"github.com/shanbay/gobay/extensions/sentryext"
+	"github.com/apocelipes/gobay/extensions/sentryext"
 {{- end }}
-	"github.com/shanbay/gobay/extensions/seqgenext"
+	"github.com/apocelipes/gobay/extensions/seqgenext"
 {{- if not $.SkipElasticApm }}
 	"go.elastic.co/apm"
 	_ "go.elastic.co/apm/module/apmsql/mysql"

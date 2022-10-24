@@ -3,7 +3,7 @@
 package ent
 
 import (
-	"github.com/facebook/ent/dialect"
+	"github.com/apocelipes/ent/dialect"
 )
 
 // Option function to configure the client.

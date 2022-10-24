@@ -3,7 +3,7 @@
 package user
 
 import (
-	"github.com/shanbay/gobay/testdata/ent/schema"
+	"github.com/apocelipes/gobay/testdata/ent/schema"
 )
 
 const (

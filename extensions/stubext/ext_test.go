@@ -16,9 +16,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/shanbay/gobay"
-	protos_go "github.com/shanbay/gobay/testdata/health_pb"
-	mock_protos_go "github.com/shanbay/gobay/testdata/health_pb_mock"
+	"github.com/apocelipes/gobay"
+	protos_go "github.com/apocelipes/gobay/testdata/health_pb"
+	mock_protos_go "github.com/apocelipes/gobay/testdata/health_pb_mock"
 )
 
 var (

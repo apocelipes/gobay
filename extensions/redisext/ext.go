@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/go-redis/redis"
-	"github.com/shanbay/gobay"
+	"github.com/apocelipes/gobay"
 	"go.elastic.co/apm/module/apmgoredis"
 )
 

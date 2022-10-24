@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/shanbay/gobay"
-	"github.com/shanbay/gobay/extensions/sentryext"
+	"github.com/apocelipes/gobay"
+	"github.com/apocelipes/gobay/extensions/sentryext"
 )
 
 var sentry_extension sentryext.SentryExt

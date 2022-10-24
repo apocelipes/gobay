@@ -5,8 +5,8 @@ package ent
 import (
 	"context"
 
-	"github.com/facebook/ent/dialect"
-	"github.com/shanbay/gobay/testdata/ent/migrate"
+	"github.com/apocelipes/ent/dialect"
+	"github.com/apocelipes/gobay/testdata/ent/migrate"
 )
 
 // Tx is a transactional client that is created by calling Client.Tx().

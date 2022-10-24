@@ -3,8 +3,8 @@ package custom_err
 import (
 	"errors"
 	"github.com/getsentry/sentry-go"
-	"github.com/shanbay/gobay"
-	"github.com/shanbay/gobay/extensions/sentryext"
+	"github.com/apocelipes/gobay"
+	"github.com/apocelipes/gobay/extensions/sentryext"
 	"testing"
 	"time"
 )

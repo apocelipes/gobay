@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/shanbay/gobay"
+	"github.com/apocelipes/gobay"
 
 	grpc_testing "github.com/grpc-ecosystem/go-grpc-middleware/testing"
 	pb_testproto "github.com/grpc-ecosystem/go-grpc-middleware/testing/testproto"

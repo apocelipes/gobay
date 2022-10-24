@@ -6,9 +6,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/facebook/ent/dialect/sql"
-	"github.com/shanbay/gobay/testdata/ent/predicate"
-	"github.com/shanbay/gobay/testdata/ent/user"
+	"github.com/apocelipes/ent/dialect/sql"
+	"github.com/apocelipes/gobay/testdata/ent/predicate"
+	"github.com/apocelipes/gobay/testdata/ent/user"
 )
 
 // UserUpdate is the builder for updating User entities.

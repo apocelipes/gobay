@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/shanbay/gobay/extensions/cachext"
+	"github.com/apocelipes/gobay/extensions/cachext"
 )
 
 func init() {

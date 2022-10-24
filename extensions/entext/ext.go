@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/facebook/ent/dialect"
-	entsql "github.com/facebook/ent/dialect/sql"
-	"github.com/shanbay/gobay"
+	"github.com/apocelipes/ent/dialect"
+	entsql "github.com/apocelipes/ent/dialect/sql"
+	"github.com/apocelipes/gobay"
 	"go.elastic.co/apm/module/apmsql"
 )
 

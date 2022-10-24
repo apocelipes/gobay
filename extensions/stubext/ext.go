@@ -11,7 +11,7 @@ import (
 	"google.golang.org/grpc/status"
 
 	grpc_retry "github.com/grpc-ecosystem/go-grpc-middleware/retry"
-	"github.com/shanbay/gobay"
+	"github.com/apocelipes/gobay"
 	"go.elastic.co/apm/module/apmgrpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

@@ -52,7 +52,7 @@ const (
 	DIRMODE      os.FileMode = os.ModeDir | 0755
 	FILEMODE     os.FileMode = 0644
 	DIRPREFIX                = "/cmd/gobay/templates/"
-	TRIMPREFIX               = "github.com/shanbay/gobay:/cmd/gobay/templates/"
+	TRIMPREFIX               = "github.com/apocelipes/gobay:/cmd/gobay/templates/"
 )
 
 func main() {

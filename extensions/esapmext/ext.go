@@ -7,7 +7,7 @@ import (
 	"go.elastic.co/apm"
 	"go.elastic.co/apm/transport"
 
-	"github.com/shanbay/gobay"
+	"github.com/apocelipes/gobay"
 )
 
 type EsApmExt struct {

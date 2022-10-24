@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/shanbay/gobay"
-	"github.com/shanbay/gobay/extensions/sentryext/custom_logger"
+	"github.com/apocelipes/gobay"
+	"github.com/apocelipes/gobay/extensions/sentryext/custom_logger"
 	"github.com/streadway/amqp"
 	"github.com/stretchr/testify/assert"
 )
