@@ -32,7 +32,7 @@
 package app
 
 import (
-  "github.com/shanbay/gobay/extensions/busext"
+  "github.com/apocelipes/gobay/extensions/busext"
 )
 
 func Extensions() map[gobay.Key]gobay.Extension {
@@ -70,7 +70,7 @@ package bus
 
 import (
   myapp "git.17bdc.com/backend/helloworld/app"
-  "github.com/shanbay/gobay"
+  "github.com/apocelipes/gobay"
 )
 
 func Serve(app *gobay.Application) error {
@@ -153,7 +153,7 @@ import (
   protos_go "git.17bdc.com/shanbay/protos-go"
   "git.17bdc.com/shanbay/protos-go/xyz/oc"
   "github.com/golang/mock/gomock"
-  "github.com/shanbay/gobay"
+  "github.com/apocelipes/gobay"
 
   "path"
 )

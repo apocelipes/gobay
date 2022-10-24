@@ -8,7 +8,7 @@ import (
 
     mock_something "git.17bdc.com/shanbay/protos-go/mocks/something"
 
-    "github.com/shanbay/gobay/utils/testhelpers"
+    "github.com/apocelipes/gobay/utils/testhelpers"
 )
 
 func setup() *gobay.Application {

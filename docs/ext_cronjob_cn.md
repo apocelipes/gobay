@@ -40,7 +40,7 @@ cronjob_health_check_port: 5001
 package app
 
 import (
-  "github.com/shanbay/gobay/extensions/cronjobext"
+  "github.com/apocelipes/gobay/extensions/cronjobext"
 )
 
 func Extensions() map[gobay.Key]gobay.Extension {

@@ -1,7 +1,7 @@
 # Installation
 
 ```sh
-go get github.com/shanbay/gobay/cmd/gobay
+go get github.com/apocelipes/gobay/cmd/gobay
 ```
 
 ## gobay 项目辅助使用的工具

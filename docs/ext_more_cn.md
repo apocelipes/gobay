@@ -25,7 +25,7 @@ import (
   "log"
 
   "github.com/elastic/go-elasticsearch/v7"
-  "github.com/shanbay/gobay"
+  "github.com/apocelipes/gobay"
 )
 
 type ElasticSearchV7Ext struct {

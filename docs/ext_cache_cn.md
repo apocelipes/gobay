@@ -26,8 +26,8 @@
 package app
 
 import (
-  "github.com/shanbay/gobay/extensions/cachext"
-  _ "github.com/shanbay/gobay/extensions/cachext/backend/redis"
+  "github.com/apocelipes/gobay/extensions/cachext"
+  _ "github.com/apocelipes/gobay/extensions/cachext/backend/redis"
 )
 
 func Extensions() map[gobay.Key]gobay.Extension {
@@ -68,7 +68,7 @@ import (
   schema "helloworld/gen/entschema"
   "time"
 
-  "github.com/shanbay/gobay/extensions/cachext"
+  "github.com/apocelipes/gobay/extensions/cachext"
 )
 
 var (

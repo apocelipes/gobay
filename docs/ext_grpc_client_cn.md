@@ -34,8 +34,8 @@ import (
   schema "git.17bdc.com/backend/helloworld/gen/entschema"
   "github.com/apocelipes/ent/dialect"
   _ "github.com/go-sql-driver/mysql"
-  "github.com/shanbay/gobay"
-  "github.com/shanbay/gobay/extensions/entext"
+  "github.com/apocelipes/gobay"
+  "github.com/apocelipes/gobay/extensions/entext"
   _ "go.elastic.co/apm/module/apmsql/mysql"
 )
 

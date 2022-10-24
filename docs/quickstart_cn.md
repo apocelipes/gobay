@@ -3,7 +3,7 @@
 - 安装 gobay 命令行工具
 
 ```sh
-go get github.com/shanbay/gobay/cmd/gobay
+go get github.com/apocelipes/gobay/cmd/gobay
 ```
 
 - 使用 gobay 命令行工具生成新项目

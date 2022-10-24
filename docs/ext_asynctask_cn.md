@@ -33,7 +33,7 @@ make run COMMAND=asynctask
 package app
 
 import (
-  "github.com/shanbay/gobay/extensions/asynctaskext"
+  "github.com/apocelipes/gobay/extensions/asynctaskext"
 )
 
 func Extensions() map[gobay.Key]gobay.Extension {
@@ -66,7 +66,7 @@ package asynctask
 
 import (
   myapp "git.17bdc.com/backend/sample/app"
-  "github.com/shanbay/gobay"
+  "github.com/apocelipes/gobay"
 )
 
 func Serve(app *gobay.Application) error {

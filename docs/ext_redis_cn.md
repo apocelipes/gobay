@@ -27,8 +27,8 @@ import (
   elasticsearchv7 "github.com/elastic/go-elasticsearch/v7"
   "github.com/apocelipes/ent/dialect"
 
-"github.com/shanbay/gobay"
-  "github.com/shanbay/gobay/extensions/redisext"
+"github.com/apocelipes/gobay"
+  "github.com/apocelipes/gobay/extensions/redisext"
 )
 
 // Extensions defined Extensions to be used by init app
