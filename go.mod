@@ -29,8 +29,8 @@ require (
 	github.com/spf13/cobra v1.6.1
 	github.com/spf13/viper v1.7.1
 	github.com/streadway/amqp v1.0.0
-	github.com/stretchr/objx v0.5.2
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/objx v0.5.3
+	github.com/stretchr/testify v1.12.0
 	github.com/vmihailenco/msgpack v4.0.4+incompatible
 	go.elastic.co/apm v1.15.0
 	go.elastic.co/apm/module/apmgoredis v1.15.0
@@ -62,7 +62,6 @@ require (
 	github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b // indirect
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
-	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/elastic/go-licenser v0.3.1 // indirect
 	github.com/elastic/go-sysinfo v1.1.1 // indirect
@@ -113,7 +112,6 @@ require (
 	github.com/oklog/ulid v1.3.1 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/pelletier/go-toml v1.7.0 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.60.0 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
