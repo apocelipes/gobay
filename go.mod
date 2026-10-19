@@ -1,6 +1,6 @@
 module github.com/shanbay/gobay
 
-go 1.24
+go 1.25
 
 require (
 	entgo.io/ent v0.11.7
@@ -13,7 +13,6 @@ require (
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/go-sql-driver/mysql v1.7.0
 	github.com/golang/mock v1.4.4
-	github.com/google/uuid v1.6.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.2.2
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/iancoleman/strcase v0.1.3
@@ -29,7 +28,7 @@ require (
 	github.com/spf13/cobra v1.6.1
 	github.com/spf13/viper v1.7.1
 	github.com/streadway/amqp v1.0.0
-	github.com/stretchr/objx v0.5.2
+	github.com/stretchr/objx v0.8.0
 	github.com/stretchr/testify v1.9.0
 	github.com/vmihailenco/msgpack v4.0.4+incompatible
 	go.elastic.co/apm v1.15.0
@@ -90,6 +89,7 @@ require (
 	github.com/gomodule/redigo v2.0.0+incompatible // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/s2a-go v0.1.8 // indirect
+	github.com/google/uuid v1.6.0 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.3.4 // indirect
 	github.com/googleapis/gax-go/v2 v2.13.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.19.1 // indirect
